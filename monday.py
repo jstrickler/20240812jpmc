@@ -1,0 +1,1 @@
+print("Mondays are tough")
