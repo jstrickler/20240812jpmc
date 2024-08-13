@@ -5,3 +5,7 @@ fruits = [
     'BaNaNa', 'Persimmon   '
 ]
 
+# range(N)    # 0 - N-1
+# range(N, M)   # N - M-1
+for i in range(1, 11):
+    print(i)
