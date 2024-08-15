@@ -21,6 +21,8 @@ for student, score in scores_by_student.items():
 
     print(f"{student:20s} {score} {grade}")
 
+scale = [('A', (95, 100)), ('B', (89, 94))]
+
 sum_of_scores = sum(scores_by_student.values())
 average = sum_of_scores/len(scores_by_student)
 print(f"\naverage score is  {average:.2f}\n")
